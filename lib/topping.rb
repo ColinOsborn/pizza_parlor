@@ -19,9 +19,9 @@ class Topping
         name = row[:name]
         price = row[:price]
         is_vegetarian = row[:is_vegetarian]
+        menu << Topping.new(name, price, is_vegetarian)
       end
-    Topping.new()
   end
-    end
+
 
 end

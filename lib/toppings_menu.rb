@@ -3,11 +3,8 @@ require_relative 'topping'
 
 class ToppingsMenu
 
-  def initialize(topping)
-    
-  end
-
   def find_by_name
+    menu = []
 
   end
 end
